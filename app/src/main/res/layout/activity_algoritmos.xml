@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instrucciones.AlgoritmosActivity"
+    android:background="@drawable/niveles2"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+
+    <TextView
+        android:fontFamily="@font/ttnormspro_medium"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TEMA1"
+        android:gravity="center"
+        android:textColor="@color/BLANCO"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/bton_n1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/boton_temas_press"
+                    android:textColor="@color/BLANCO"
+                    android:elevation="15dp"
+                    android:text="@string/Nivel1Tema1"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <Button
+                    android:fontFamily="@font/ttnorms_medium"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/bton_n2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/boton_temas_press"
+                    android:textColor="@color/BLANCO"
+                    android:elevation="15dp"
+                    android:text="@string/Nivel2Tema1"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:fontFamily="@font/ttnorms_medium"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/bton_n3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/boton_temas_press"
+                    android:textColor="@color/BLANCO"
+                    android:elevation="15dp"
+                    android:text="@string/Nivel3Tema1"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    />
+
+                <Button
+                    android:fontFamily="@font/ttnorms_medium"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/bton_n4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/boton_temas_press"
+                    android:textColor="@color/BLANCO"
+                    android:elevation="15dp"
+                    android:text="@string/Nivel4Tema1"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:fontFamily="@font/ttnorms_medium"
+                android:id="@+id/bton_n5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/boton_temas_press"
+                android:textColor="@color/BLANCO"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:elevation="15dp"
+                android:text="@string/Nivel5Tema1"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

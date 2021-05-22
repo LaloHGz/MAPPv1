@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/home"
+    android:orientation="vertical"
+    android:background="@color/GRIS50">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/GRIS50"
+        android:elevation="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginStart="16dp"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mapp_redondo"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:id="@+id/mapp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="APP"
+            android:textAllCaps="true"
+            android:textColor="@color/NEGRO"
+            android:textSize="35sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center">
+            <TextView
+                android:fontFamily="@font/ttnormspro_regular"
+                android:layout_gravity="center"
+                android:id="@+id/Tv_Usuario"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginStart="70dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/GRIS80"
+                android:typeface="sans"
+                tools:ignore="RtlCompat"
+                android:textStyle="bold"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginStart="10dp"
+                android:id="@+id/image_personaje"
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/GRIS50">
+
+        <ScrollView
+            android:background="@color/GRIS50"
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/layout_home"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingTop="13dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:textColor="@color/NEGRO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textSize="25sp"
+                        android:textAlignment="center"
+                        android:text="Hola,"/>
+                    <TextView
+                        android:id="@+id/tv_usuario_bienvenida"
+                        android:paddingStart="5dp"
+                        android:textColor="@color/NEGRO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textSize="25sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+                <TextView
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:text="¿Listo para seguir con la aventura?"
+                    android:layout_marginBottom="10dp"
+                    />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/rectangle_azul"
+                    android:text="Programación estructurada"
+                    android:gravity="center"
+                    android:textColor="@color/BLANCO"
+                    android:fontFamily="@font/ttnormspro_bold"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/niveles_aprendizaje"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/rectangle_primarydark"
+                    android:text="Python"
+                    android:gravity="center"
+                    android:textColor="@color/BLANCO"
+                    android:fontFamily="@font/ttnormspro_bold"
+                    android:textSize="15sp"/>
+
+                <LinearLayout
+                    android:id="@+id/b1"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada1"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/algoritmos_portada"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnorms_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA1"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b2"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada2"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Nivel1Tema2"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar2"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje2"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b3"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1"
+                            android:id="@+id/portada3"
+                            android:transitionName="portada_transition"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA3"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar3"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje3"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b4"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada4"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA6"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar4"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje4"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b5"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada5"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA4"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar5"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje5"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b6"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada6"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnorms_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA5"
+                            android:textSize="22sp"
+                            android:layout_marginEnd="10dp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar6"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje6"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b7"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada7"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA7"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar7"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje7"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b8"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada8"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA8"
+                            android:textSize="22sp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar8"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje8"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b9"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada9"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA9"
+                            android:textSize="22sp"
+                            android:layout_marginEnd="19dp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar9"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje9"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/b10"
+                    android:background="@drawable/fondo_boton_temas"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:elevation="10dp"
+                    android:layout_marginBottom="22dp">
+
+                    <LinearLayout
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/portada10"
+                            android:transitionName="portada_transition"
+                            android:elevation="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:src="@drawable/portada1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:fontFamily="@font/ttnormspro_medium"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fondo_lenguaje"
+                            android:gravity="center"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:text="Python"
+                            android:textSize="13sp"
+                            android:textColor="@color/amarilloMapp"
+                            />
+                        <TextView
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/ttnormspro_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/TEMA10"
+                            android:textSize="22sp"
+                            android:layout_marginEnd="19dp"
+                            android:textColor="@color/NEGRO"
+                            />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="5 ejercicios"
+                            android:textColor="@color/GRIS80"
+                            android:fontFamily="@font/ttnormspro_regular"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginEnd="16dp">
+
+                            <ProgressBar
+                                android:id="@+id/progressBar10"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_weight="8"
+                                android:layout_width="0dp"
+                                android:layout_height="7dp"
+                                android:layout_gravity="center"
+                                android:progressDrawable="@drawable/progress_levels_home" />
+
+                            <View
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/porcentaje10"
+                                android:layout_gravity="center"
+                                android:layout_weight="2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:fontFamily="@font/ttnormspro_medium"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

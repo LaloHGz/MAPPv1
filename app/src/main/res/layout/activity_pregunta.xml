@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".niveles.PreguntaActivity"
+    android:background="@color/GRIS50">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fondosplash"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:fontFamily="@font/ttnormspro_medium"
+            android:id="@+id/tv_titulo"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/BLANCO"
+            android:textSize="30sp" />
+        <TextView
+            android:fontFamily="@font/ttnormspro_medium"
+            android:id="@+id/text_view_countdown"
+            android:layout_width="0dp"
+            android:textAlignment="textEnd"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:textColor="@color/BLANCO"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:progressDrawable="@drawable/custom_progress_pregunta" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/rectangle_white">
+        </LinearLayout>
+
+            <TextView
+                android:background="@drawable/rectangle_white"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:gravity="center"
+                android:id="@+id/tv_pregunta"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:textStyle="bold"
+                android:textColor="@color/GRIS80"
+                android:textSize="18sp"
+                />
+
+
+        <Button
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="@font/ttnormspro_medium"
+            android:layout_marginTop="30dp"
+            android:id="@+id/respuesta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:elevation="15dp"
+            android:textColor="@color/BLANCO"
+            android:background="@drawable/rectangle_black_press"
+            />
+
+        <Button
+            android:fontFamily="@font/ttnormspro_medium"
+            android:layout_marginTop="20dp"
+            android:id="@+id/respuesta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textColor="@color/BLANCO"
+            android:elevation="15dp"
+            android:background="@drawable/rectangle_black_press"
+            />
+
+        <Button
+            android:fontFamily="@font/ttnormspro_medium"
+            android:layout_marginTop="20dp"
+            android:id="@+id/respuesta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:elevation="15dp"
+            android:textColor="@color/BLANCO"
+            android:background="@drawable/rectangle_black_press"/>
+        <Button
+            android:fontFamily="@font/ttnormspro_medium"
+            android:layout_marginTop="20dp"
+            android:id="@+id/respuesta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:elevation="15dp"
+            android:textColor="@color/BLANCO"
+            android:background="@drawable/rectangle_black_press"
+            android:layout_marginBottom="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".niveles.variables.Nivel1variablesActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_white">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/animation_checkmark"
+                    android:padding="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_imageAssetsFolder="assets"
+                    app:lottie_fileName="checkmark.json"
+                    app:lottie_loop="false"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/tv_tipos_datos"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/GRIS80"
+                    android:textSize="18sp"
+                    android:text="@string/inslvl1datos"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:layout_gravity="center"
+                android:id="@+id/tv_palabra"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Karankawuas"
+                android:textSize="30sp"
+                android:textColor="@color/BLANCO"/>
+
+            <EditText
+                android:fontFamily="@font/ttnormspro_medium"
+                android:layout_marginTop="10dp"
+                android:id="@+id/et_palabra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintlvl1"
+                android:textColor="@color/MORADO50"
+                android:textColorHint="@color/MORADO50"
+                android:inputType="textPersonName"/>
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/tv_entero"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="17"
+                android:textSize="30sp"
+                android:textColor="@color/BLANCO"
+                />
+            <EditText
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/et_entero"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintlvl1"
+                android:textColor="@color/MORADO50"
+                android:textColorHint="@color/MORADO50"
+                android:inputType="textPersonName"/>
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/tv_decimal"
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2.5"
+                android:textSize="30sp"
+                android:textColor="@color/BLANCO"
+                />
+            <EditText
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/et_decimal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintlvl1"
+                android:textColor="@color/MORADO50"
+                android:textColorHint="@color/MORADO50"
+                android:inputType="textPersonName"/>
+            <Button
+                android:fontFamily="@font/ttnormspro_medium"
+                android:textAllCaps="false"
+                android:id="@+id/bton_check2"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/boton_e1press"
+                android:text="@string/Check"
+                android:textColor="@color/BLANCO"
+                android:textSize="25sp"
+                android:onClick="Check"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

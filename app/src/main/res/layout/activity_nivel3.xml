@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".niveles.algoritmos.Nivel3Activity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/algoritmo2"
+                android:layout_width="350dp"
+                android:layout_height="150sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/rectangulo"
+                android:gravity="center"
+                android:textColor="@color/NEGRO"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="370sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25sp"
+                android:background="@drawable/rectangulo" />
+
+            <Button
+                android:id="@+id/bton_1"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-87sp"
+                android:layout_marginTop="-350sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="14sp"
+                android:text="@string/bton1lvl3"/>
+
+            <Button
+                android:id="@+id/bton_3"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-87sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="14sp"
+                android:text="@string/bton2lvl3"/>
+
+            <Button
+                android:id="@+id/bton_2"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="87sp"
+                android:layout_marginTop="-160sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="14sp"
+                android:text="@string/bton3lvl3"/>
+
+            <Button
+                android:id="@+id/bton_4"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="87sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="14sp"
+                android:text="@string/bton4lvl3"/>
+
+            <Button
+                android:id="@+id/bton_5"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="14sp"
+                android:text="@string/bton5lvl3"/>
+
+            <ImageButton
+                android:id="@+id/bton_borrar"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="130sp"
+                android:layout_marginTop="-60sp"
+                android:background="@drawable/borrar"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/bton_check2"
+                android:layout_width="280sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/pressed_e1"
+                android:text="@string/Check"
+                android:textColor="@color/GRIS50"
+                android:textSize="25sp"
+                android:onClick="Check"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

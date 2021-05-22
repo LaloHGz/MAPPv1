@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GRIS50"
+    android:orientation="vertical"
+    tools:context=".inicio.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="70sp"
+                android:layout_gravity="center">
+
+                <ImageView
+
+                    android:layout_width="95sp"
+                    android:layout_height="70sp"
+                    android:src="@drawable/mapp_redondo"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/mapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APP"
+                    android:textAllCaps="true"
+                    android:textColor="@color/NEGRO"
+                    android:textSize="85sp" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:id="@+id/text_input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/GRIS"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:id="@+id/TxtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/emailuser"
+                        android:textColor="@color/NEGRO"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="@color/GRIS"
+                        android:textSize="17sp"
+                        android:typeface="sans"
+                        android:paddingStart="10dp"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    app:boxStrokeColor="@color/colorAZUL_MAPP"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:id="@+id/text_input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/GRIS"
+                    app:errorEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/NEGRO">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:id="@+id/TxtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:hint="@string/contra1"
+                        android:textColor="@color/NEGRO"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/GRIS"
+                        android:textSize="17sp"
+                        android:typeface="sans"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+            <Button
+                android:fontFamily="@font/ttnormspro_bold"
+                android:id="@+id/botonLogin"
+                android:background="@drawable/boton_login_press"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAllCaps="false"
+                android:text="@string/sesion"
+                android:textColor="@color/BLANCO"
+                android:elevation="15dp"
+                />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/o"
+                    android:fontFamily="@font/ttnorms_bold"/>
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/line"/>
+
+            </LinearLayout>
+
+            <Button
+                android:fontFamily="@font/ttnormspro_bold"
+                android:layout_marginTop="20dp"
+                android:id="@+id/butongoogle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/boton_google_press"
+                android:textAllCaps="false"
+                android:paddingEnd="30dp"
+                android:textColor="@color/BLANCO"
+                android:text="@string/iniciar_sesi_n_con_google"
+                android:drawableStart="@drawable/ic_search_1"
+                android:paddingStart="36dp"
+
+                android:elevation="15dp"
+                />
+
+            <Button
+                android:fontFamily="@font/ttnormspro_bold"
+                android:layout_marginTop="20dp"
+                android:id="@+id/butonfacebook"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/boton_facebook_press"
+                android:textAllCaps="false"
+                android:paddingEnd="30dp"
+                android:textColor="@color/BLANCO"
+                android:text="Iniciar sesión con Facebook"
+                android:drawableStart="@drawable/ic_facebook"
+                android:paddingStart="36dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="15dp"
+                />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nocuenta"
+                    android:textColor="@color/NEGRO"
+                    android:fontFamily="@font/ttnormspro_medium"/>
+                <TextView
+                    android:id="@+id/tv_registro"
+                    android:layout_marginStart="10dp"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/registrate"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/ttnormspro_medium"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

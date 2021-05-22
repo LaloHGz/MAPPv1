@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".niveles.variables.Nivel4variablesActivity"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/rectangle_white">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/animation_checkmark"
+                    android:padding="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_imageAssetsFolder="assets"
+                    app:lottie_fileName="checkmark.json"
+                    app:lottie_loop="false"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:id="@+id/algoritmo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/GRIS80"
+                    android:textSize="18sp"
+                    android:text="Selecciona el tipo de dato de la varible  numero2"/>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/rectangle_white">
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/GRIS80"
+                android:text="numero1= 2\nnumero2 = 5\n\nprint (numero1)\nprint (numero2)"
+                />
+
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:id="@+id/bton_1"
+                    android:layout_width="150sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/rectangle_gridpress"
+                    android:textColor="@color/NEGRO"
+                    android:textSize="17sp"
+                    android:text="  float"
+                    android:textAllCaps="false"
+                    android:onClick="incorrecta"/>
+
+                <Button
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:layout_marginStart="5dp"
+                    android:id="@+id/bton_2"
+                    android:layout_width="150sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/rectangle_gridpress"
+                    android:textColor="@color/NEGRO"
+                    android:textSize="17sp"
+                    android:text="complex"
+                    android:textAllCaps="false"
+                    android:onClick="incorrecta"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_3"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:background="@drawable/rectangle_gridpress"
+                android:textColor="@color/NEGRO"
+                android:textSize="17sp"
+                android:text="int"
+                android:textAllCaps="false"
+                android:onClick="INT"/>
+
+            <Button
+                android:fontFamily="@font/ttnormspro_medium"
+                android:layout_marginStart="5dp"
+                android:id="@+id/bton_4"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:background="@drawable/rectangle_gridpress"
+                android:textColor="@color/NEGRO"
+                android:textSize="17sp"
+                android:textAllCaps="false"
+                android:text="long"
+                android:onClick="incorrecta"/>
+
+        </LinearLayout>
+
+
+            <Button
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_5"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/rectangle_gridpress"
+                android:textColor="@color/NEGRO"
+                android:textSize="17sp"
+                android:text="str"
+                android:textAllCaps="false"
+                android:onClick="incorrecta"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

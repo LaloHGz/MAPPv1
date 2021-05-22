@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/menu"
+        />
+
+    <item
+        android:id="@+id/nav_temas"
+        android:icon="@drawable/ic_bookmark_black_24dp"
+        android:title="@string/teorias"
+        />
+
+    <item
+        android:id="@+id/nav_teoria"
+        android:icon="@drawable/ic_coding_50dp"
+        android:title="Compilador"
+        />
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/perfil"
+        />
+</menu>

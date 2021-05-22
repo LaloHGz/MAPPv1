@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Check">Revisione</string>
+    <string name="Completado">Hai completato l\'esercizio!</string>
+    <string name="Insnivel1tema2">"\nScrivere il nome del tipo di dati a cui ogni dato corrisponde. \nUtilizzare i nomi dei \ntipi di dati nel riquadro \nsuperiore dello schermo.  \n\nEsempio: \nCiao Mondo(Parola) \n47(Intero) \n33.33(Numero Decimale)"</string>
+    <string name="Insnivel2Tema2">"\nScrivere il nome del tipo di dati a cui ogni dato corrisponde. \nUtilizzare i nomi dei \ntipi di dati nel riquadro \nsuperiore dello schermo.  \n\nEsempio: \nCiao Mondo(str) \n47(int) \n33.33(float) \nTrue(Bool)"</string>
+    <string name="Insnivel4Tema2">Organizza l\'algoritmo per calcolare la media (media) di 3 numeri</string>
+    <string name="Karankawuas">Uccidere Karankawuas</string>
+    <string name="Nivel1Tema2">Tipi di dati</string>
+    <string name="Nivel2Tema1">Algoritmi \n2</string>
+    <string name="Nivel2Tema2">Tipi di dati 2</string>
+    <string name="Nivel3Tema1">Algoritmi \n3</string>
+    <string name="Nivel4Tema1">Algoritmi \n4</string>
+    <string name="Nivel5Tema1">Algoritmi \n5</string>
+    <string name="Nivel5alg">Algoritmo per andare al cinema</string>
+    <string name="Nivel5insalg">Organizzare l\'algoritmo per andare al cinema</string>
+    <string name="Siguiente">Avanti</string>
+    <string name="TEMA1">Algoritmi</string>
+    <string name="TEMA2">Tipi di dati</string>
+    <string name="Terminado">Terminato</string>
+    <string name="Variables1">Tipi di dati \n1</string>
+    <string name="Variables2">Tipi di dati \n2</string>
+    <string name="Variables3">Tipi di dati \n3</string>
+    <string name="Variables4">Tipi di dati \n4</string>
+    <string name="Variables5">Tipi di dati \n5</string>
+    <string name="Variables6">Tipi di dati \n6</string>
+    <string name="ajustes">Impostazioni</string>
+    <string name="bton1">"Molto tempo fa, c'era una tribù di panda guerrieri chiamata Karankawuas"</string>
+    <string name="bton1lvl2">Shizong ha trovato una foglia in una lingua straniera</string>
+    <string name="bton1lvl3">I paythoniani avevano già cambiato la loro forma in quella di un panda</string>
+    <string name="bton1lvl4">Inserisci N1, N2, N3</string>
+    <string name="bton1lvl5">Vai per i biglietti del cinema</string>
+    <string name="bton2">Lingdao è l\'attuale leader della tribù dei Karankawua</string>
+    <string name="bton2lvl3">I Karankawuas hanno avuto una festa di benvenuto per i Paythoniani</string>
+    <string name="bton2lvl4">Inizio</string>
+    <string name="bton2lvl5">Acquista il biglietto del cinema</string>
+    <string name="bton2vl2">attaccare i Karankawuas per ottenere il Moshu</string>
+    <string name="bton3">Zhu Shen otortgó le bastone di bambù Moshu a Houyi</string>
+    <string name="bton3lvl2">Shizong e Laoshi hanno visto una nave spaziale</string>
+    <string name="bton3lvl3">Kin riuscì a catturare l\'attenzione di Shizong</string>
+    <string name="bton3lvl4">Fine</string>
+    <string name="bton3lvl5">Entra nella sala cinema</string>
+    <string name="bton4">Aren ha costruito una fortezza per i suoi discendenti</string>
+    <string name="bton4lvl2">I Paythoniani volevano impersonare i panda</string>
+    <string name="bton4lvl3">Lingdao ha ricevuto Kin e la sua tribù nella fortezza di Aren</string>
+    <string name="bton4lvl4">Uscita la media</string>
+    <string name="bton5">Houyi ha ricevuto una visione dal dio del Bambù: Zhu Shen</string>
+    <string name="bton4lvl5">Godetevi il film</string>
+    <string name="bton5lvl2">Ottenere la fiducia del popolo Karankawua</string>
+    <string name="bton5lvl3">Un paythoniani ha trafitto il cuore di una guardia Karankawua con una spada</string>
+    <string name="bton5lvl4">Media=(N1+n2+N3)/3</string>
+    <string name="comic">Fumetto</string>
+    <string name="contra">Password (minimo 6 caratteri)</string>
+
+    <string name="ejmplolvl1">"
+        Esempio di come ordinarlo:
+        \nLavarsi le mani
+        \n1.INIZIO.
+        \n2.-Apri il rubinetto dell'acqua.
+        \n3.-Bagnate le mani.
+        \n4.-Applicare il sapone.
+        \n5.-Sciacquare le mani.
+        \n6.-Chiudere il rubinetto dell'acqua.
+        \n7.-Asciugare le mani con la carta.
+        \n8.-FINE. "</string>
+    <string name="ejmplolvl2">"
+        Esempio di come ordinarlo:
+        \nVai a scuola
+        \n1.INIZIO.
+        \n2.- Alzarsi presto.
+        \n3.-Spegnere l'allarme.
+        \n4.-Fai il letto.
+        \n5.- Mettiti l'uniforme.
+        \n6.-Colazione.
+        \n7.-Lavare i denti.
+        \n8.- Per uscire di casa per andare a scuola.
+        \n9.-FINE. "</string>
+    <string name="ejmplolvl3">"
+        Esempio di come ordinarlo:
+        \nAlgoritmo alimentare
+        \n1. Ho messo il cibo nel piatto.
+        \n2. C'è il piatto con il cibo.
+        \n3. Ho messo le posate.
+        \n4. Prendo le posate da tagliare.
+        \n5. Selezioniamo prima cosa mangiare pungendo con la forchetta.
+        \n6. Faccio il movimento per ingerire il cibo.
+        \n7. Metto il cibo in bocca.
+        \n8. Mangio il cibo.
+        \n9. Restituisco le posate al cibo.
+        \n10. A fine pasto lascio le posate sui lati."</string>
+    <string name="ejmplolvlvar4">" Una variabile è un sito in cui \nvengono memorizzate determinate informazioni. \nA seconda del tipo di informazioni \nche memorizziamo (testo, numeri, \nbooleano, ecc.), la variabile sarà \ndi un tipo o un altro. "</string>
+    <string name="emailuser">E-mail</string>
+    <string name="escrito">Scritto</string>
+    <string name="hintlvl1">Scrivi il tipo di dati</string>
+    <string name="historiavariables1">Fuori dalla fortezza, gli abitanti del Magiscatzin erano confusi, perché i suoni della battaglia erano cessati, e ora si sentivano grida acute, i paythonianos festeggiavano la loro vittoria. I guerrieri pagani giravano per ogni centimetro del castello, ma non riuscivano a trovare nulla che li portasse al Bamboo Moshu. Entrando nella stanza del re, Kin scoprì la verga sacra di Moshu, ma quando la prese, tutto ciò che riuscì fu di bruciarsi la mano.           \"Porta via questa cosa infernale\" grido al pagonese che lo accompagnava, indicando il Rod Sacro - \"Se era nella stanza del re, deve essere importante. Il suo compagno, guardò l\'asta con timore, ma decise di afferrarla con un pezzo di stoffa per evitare di essere bruciato. Frustrati di non aver trovato nulla, gli alieni decisero di lasciare un messaggio al popolo Karankawua:          -\"Il loro capo è morto, e noi abbiamo rapito la principessa Shizong, se vogliono vederla di nuovo viva, devono darci tutti i loro Moshu Bamboo! Il migliore amico di Laoshi, Tizoc, rispose: \"Laoshi è ancora vivo, sarà il nuovo leader\". Sentendo questo, il volto di Kin si è trasformato - letteralmente - i suoi occhi sono diventati completamente neri, e le sue zanne sono cresciute, la sua bocca che si è trasformata in una terrificante smorfia. - Allora dite al vostro capo che se vuole vedere sua sorella di nuovo viva, farà tutto quello che gli chiediamo! Hai quattro giorni per darci il Moshu Bamboo. O distruggeremo l\'intera città. \"Dopo essersi assicurati di aver seminato abbastanza terrore nel villaggio (un omicidio o cinque, due o tre stabilimenti distrutti e diversi rapiti), i Paythoniani tornarono alla loro nave, pronti a rilassarsi fino a quando non hanno ricevuto il Bamboo Moshu. Quando Laoshi tornò a Magiscatzin, trovò un villaggio nel caos, molti degli           abitanti stavano causando risse, si sentiva la paura e la depressione nell\'aria.          Tizoc uscì per incontrarlo, raccontandogli tutto quello che era successo.          \"Laoshi, so che è difficile per te, ma la gente ha bisogno di un leader.....          Abbiamo bisogno di te. - Tizoc ha messo la mano sulla spalla dell\'amico, cercando          di trasmettere il suo sostegno e la sua comprensione.          Laoshi ha semplicemente annuito. Fin da piccolo era stato sottolineato il suo          dovere di primogenito e futuro leader del Magiscatzin, e sapeva          che un giorno ciò sarebbe accaduto, nonostante i suoi desideri contrari. Con un passo deciso          e deciso, si dirige verso il centro del paese, dove si concentrano gran          parte delle rivolte.          -\"Attenzione! Magiscatzin village!\" - gridò, in piedi su un podio nel centro del          paese (che sorprendentemente era ancora in piedi) - \"Sono Laoshi, figlio di Lingdao,          discendenti di Houyi, il grande fondatore di Magiscatzin e il primo portatore del          Sacro Rod Moshu. So che quello che questi alieni hanno commesso è un atto          odiosi. Ma cosa faremo? Staremo seduti a non          fare niente? lamentandoci di quello che ci hanno fatto? No! I nostri antenati          non se ne starebbero seduti. Si alzavano e ricostruivano il Magiscatzin. Pertanto, vi invito a unirvi e a sollevare la gente dalle rovine. Condurrò una spedizione per salvare la principessa Shizong. La mia mano destra          Tizoc mi accompagnerà, e sceglieremo altri due panda che ci accompagneranno. \"I Karankawuas, che avevano ascoltato attentamente, messi a tacere dalla          determinazione e dalla ferocia di Laoshi, gridarono la loro approvazione all\'unisono. Diversi          arcieri - che, poiché le loro armi erano a lunga distanza,          non si erano uniti alla lotta - collezionisti di Bamboo Moshu, e anche alcuni dei proprietari          delle imprese distrutte hanno offerto di far parte della spedizione. Infine,          decisero di prendere Nobi, un medico la cui attività era stata distrutta, e Felis,          uno dei migliori cacciatori della città ed esperto di trappole.          - \"Mio re! - una guardia si precipitò verso il gruppo di karankawas sul punto di          lasciare il villaggio. Sentendo il modo in cui la guardia si riferiva a lui, la          postura di Laoshi si irrigidì e gli passò un\'ombra sul viso, perché          ricordava che suo padre se ne era andato e se non avesse agito presto non avrebbe avuto nemmeno una sorella.          \"Abbiamo trovato qualcosa tra le macerie di case distrutte. Ci sono          alcuni documenti che contengono parole strane. Abbiamo anche trovato quella che          sembra essere una tavola che emette una luce blu\" - la guardia ha afferrato un sacco legato alla          sua cintura e poi ha tirato fuori un libro malconcio intitolato \"De Python a Español\", un          foglio strappato a metà, e una tavola nera che emetteva luce e aveva qualche parola          scritta su di essa. Il gruppo di soccorso ha deciso di rinviare la spedizione per qualche istante          per esaminare gli oggetti.          Nel foglio si legge: \"Variabile: uno spazio in cui è memorizzato un certo valore di un          tipo di dati. I tipi di dati sono: Int, Float e String\". Mentre leggeva la foglia, un          ricordo è emerso nella memoria di Laoshi, e ha cercato tra le cose nel suo zaino.          Dopo pochi minuti, ha tirato fuori dallo zaino un pezzo di foglia rotta dall\'alto.          Ha messo insieme i due pezzi e ha sorriso trionfante. L\'intero foglio di carta diceva quanto segue:          Variabile: uno spazio in cui è memorizzato un certo valore di un tipo di dati.          I tipi di dati sono: Int, Float e String.          Int: numeri interi.           Mentre Tizoc e Felis guardavano curiosamente la foglia, cercando di decifrare gli strani termini, Nobi e Laoshi sperimentarono la strana tavola - che Nobi identificò come una tavoletta, un dispositivo che aveva scoperto durante uno dei suoi viaggi fuori città -.          Sullo schermo della tavoletta erano presenti le istruzioni:          \"Identificare i seguenti dati e il loro tipo.          17 =                               \"         Kill Karankawas =\"                                        2.5 = \"         Qualcosa ha cliccato sulla mente di Laoshi, e ha collegato le istruzioni al foglio che avevano trovato insieme al tablet.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.</string>
+    <string name="insNivel4var">Premere il pulsante con la variabile corrispondente al tipo di variabile richiesta</string>
+    <string name="inslvl1datos">"Tipi di dati:    \n\nNumero(i) Intero(int)      \nNumero(i) decimale(flottante)       \nParola(stringa di caratteri/str)  "</string>
+    <string name="inslvl2datos">"Tipi di dati:   int  float  str "</string>
+    <string name="inslvl4var">Seleziona il tipo di dati mancanti che dovrebbero essere nel punto interrogativo.         \n\nnumber1 =      int       (2)           \nnumber2 =         ?       (2)             \nprint(numero1) (2)            \nprint(numero2) (2) (2)</string>
+    <string name="insnarrado">Premere il pulsante Play per avviare la parte della storia di Laoshi necessaria per risolvere il seguente esercizio</string>
+    <string name="instruccion">Premere i pulsanti nell\'ordine in cui si sono verificati gli eventi della storia.</string>
+    <string name="narrado">Narrato</string>
+    <string name="nivel1">Laoshi (Genesi)</string>
+    <string name="nivel2">Piano malvagio dei Paythoniani</string>
+    <string name="nivel3">Ingresso dei Paythoniani al villaggio Karankawua</string>
+    <string name="nivel4">Media</string>
+    <string name="nocuenta">Non hai ancora un account?</string>
+    <string name="not_log_in">Impossibile effettuare il login</string>
+    <string name="perfil">Profilo</string>
+    <string name="registrate">Registrati</string>
+    <string name="sesion">Accedi</string>
+    <string name="registrarse">Registrazione</string>
+    <string name="start">Inizio</string>
+    <string name="tema1">Tema  \n1</string>
+    <string name="tema2">Tema  \n2</string>
+    <string name="tema3">Tema  \n3</string>
+    <string name="tema4">Tema  \n4</string>
+    <string name="tema5">Tema  \n5</string>
+    <string name="tema6">Tema  \n6</string>
+    <string name="tema7">Tema  \n7</string>
+    <string name="tema8">Tema  \n8</string>
+    <string name="teorias">Teoria</string>
+    <string name="texto1">" Molto tempo fa, c'era una tribù di panda guerrieri chiamata Karankawuas. Vivevano in armonia, viaggiando da un luogo all'altro, sperando un giorno di trovare il bambù di Moshu....il bambù degli dei. Un giorno, l'allora leader della tribù, Houyi, un panda avventuroso, intelligente e forte, il leader perfetto, ricevette una visione nei suoi sogni dal dio del Bambù: Zhu Shen.
+        \n\nL'acclamato dio gli mostrò la risposta alla ricerca della tribù, la chiave del bambù di Moshu. Gli rivelò la strada per la collina di Bernal, l'unico posto dove si poteva trovare il Moshu. Houyi, seguendo la visione di Zhu Shen, condusse i Karankawas al posto giusto e, come ricompensa, il dio del Bamboo gli fece un regalo, un bastone di bambù Moshu benedetto dallo stesso Zhu Shen, che avrebbe dato a lui e a tutti i suoi discendenti l'intelligenza e la forza di un dio.
+        \n\nGli anni passarono e i Karankawuas avevano prosperato sulla collina, fondando un villaggio che avevano deciso di chiamare Magiscatzin. Dopo la morte di Houyi, suo figlio Aren decise di costruire una fortezza affinché tutti i suoi discendenti potessero vivere come membri della famiglia reale, una costruzione degna dei portatori del Sacro Rod Moshu.   Ogni discendente di Houyi era diverso, suo nipote, Mukanda, era un panda pacifista e gentile con tutti, e il regno prosperò molto sotto il suo dominio. A differenza di Mukanda, suo figlio Lingdao era come il suo bisnonno, uno spirito avventuroso ed estremamente coraggioso, era conosciuto per le grandi spedizioni che conduceva, alla ricerca di risorse per il villaggio e di strani tesori. \n\n\n\n\n\n."</string>
+    <string name="texto2">"Un giorno, i figli ventunenni di Lingdao, Laoshi e la sorella minore Shizong, diciottenne, stavano camminando nel loro posto preferito nella foresta huizache sul fiume Guayalejo, quando hanno sentito uno strano e forte rumore fuori dal comune in una foresta così calma.
+        \n\nArrivando nel luogo da cui proveniva lo strano suono, i giovani panda furono sorpresi di vedere una navicella spaziale con strani segni che si arrampicavano sulle nuvole. Stupiti da quello che hanno visto, si sono avvicinati al luogo dove la nave era decollata.
+        \n\n \"Laoshi! Guarda, c'e' una foglia per terra\". Shizong indicava una lama lanciata a terra, contenente quella che sembrava essere una sorta di linguaggio. La lama si legge come segue: P=int(intput('Quantità: ')) for i in range(P): Print(\"Uccidi i Karankawuas\").
+        \n\n\"Divertente\", commenta Laoshi, esaminando attentamente il foglio. Forse riconosce la lingua tra le tante che ha imparato nelle sue avventure. E con questo detto, entrambi i giovani tornarono alla fortezza di Aren.
+        \n\n Non lo sapevano, ma quell'astronave apparteneva ad una razza di alieni in movimento dal pianeta Paython. Questi alieni non vennero in pace, volevano conquistare il popolo dei Karankawuas, perché i panda possedevano un minerale prezioso - il rodio - che aveva la capacità di fertilizzare la terra, e questo era l'unico modo in cui i pagionesi erano riusciti a sopravvivere così a lungo. Dopo anni di studio della cultura Karankawua, i pagani avevano finalmente acquisito la padronanza della lingua Karankawua. Il piano di Kin, il leader dei Paythoniani, era quello di impersonare i panda immigrati dal Sud America in cerca di lavoro per sopravvivere e, dopo aver guadagnato la fiducia del popolo dei Magiscatzin, attaccarli per ottenere il rodio. \n\n\n\n\n\n."</string>
+    <string name="texto3">Nel frattempo, nella fortezza di Aren, Lingdao riceveva Kin e alcuni della sua tribù - per questo i pagionesi avevano già cambiato la loro forma in quella dei panda - credendo alla storia degli immigrati sudamericani. Quando Laoshi e Shizong arrivarono a casa loro, i Karankawuas stavano organizzando una festa di benvenuto per i paythonianos travestiti.
+        \n\nIn mezzo a tutto questo trambusto, Shizong dimenticò di mostrare la foglia che aveva trovato nella foresta, e l\'incidente non peggiorò. I Paythoniani erano pazienti, aspettando diversi mesi prima di effettuare l\'attacco pianificato. Durante tutto quel tempo, Kin riuscì a catturare l\'attenzione di Shizong e il giovane panda finì per innamorarsi profondamente.
+        \n\nIl tempo era passato, e tutti a Magiscatzin erano felici, i pagani si erano adattati bene al lavoro, e Shizong usciva con Kin. Un giorno, Lingdao era seduto tranquillamente nella sala da pranzo insieme a Shizong e Kin, in attesa che Laoshi arrivasse dalla formazione nella foresta per poter cenare in famiglia; improvvisamente, una guardia dei Karankawua entrò nella sala da pranzo sanguinosa e agitata.
+        \n\n"Siamo stati attaccati! Il pagamento\" - e non ha finito di parlare, come un borsista trafitto il suo cuore con una spada.</string>
+    <string name="tiempo">Tempo:</string>
+    <string name="user">Utente</string>
+    <string name="sentenciasprint">Il gruppo di soccorso era appena entrato nella foresta quando hanno incontrato il loro primo ostacolo.   \"Cosa ci fa qui\", chiese Nobi a voce tremante, mentre si nascondeva dietro Felis, intimidita dal robot gigante di fronte a lei. I due si ritirarono lentamente, mentre Laoshi affondò contro la macchina metallica, attaccando con la sua spada. La spada ha parzialmente tagliato il braccio destro del robot, ma il robot ha usato il suo braccio sinistro per lanciare Laoshi contro un albero, lasciandolo momentaneamente invalido.   \"Che cosa stai facendo,\" Felis guardò Tizoc con incredulità, mentre sparava frecce al robot che ora lanciava raggi laser con il suo \'occhio\', \"Stai solo sprecando frecce. Questo non è come le storie di eroi che vengono raccontate nel villaggio! Se vedete un grande nemico, correte\", il cacciatore prese per mano Nobi e cominciò a correre verso la parte orientale della foresta, portando con sé il medico e la maggior parte delle provviste. Vedendolo scappare, Laoshi e Tizoc seguirono le sue orme e, prendendo le loro armi, fuggirono.   Quando si rese conto che i suoi nemici stavano fuggendo, l\'automa assassino li inseguì, sparando raggi laser incessantemente. Dopo quella che sembrava un\'eternità, il gruppo è riuscito a perdere il robot, nascondendosi in una caverna buia che hanno incontrato. Nonostante i continui colpi di arma da fuoco, i fitti alberi della foresta hanno contribuito a far sì che nessuno fosse gravemente ferito. Laoshi è stato l\'unico a finire con ferite, oltre ai graffi che tutti avevano ricevuto per aver urtato alcuni rami o per aver inciampato sulle pietre mentre fuggivano. Mentre Nobi si occupava di fasciare le ferite di Laoshi, Tizoc e Felis raccoglievano tranquillamente la legna da ardere, eludendo il robot che insisteva a girare intorno alla grotta in modo da poter fare un falò all\'interno della grotta.   Sono successe due cose quando il fuoco era acceso. Tizoc fu bruciato dal fuoco, perché quando la grotta fu illuminata, anche se si trattava di una luce molto debole, si vedevano chiaramente segni strani sulle pareti della grotta.       .</string>
+    <string name="Nivel1Tema1">Algoritmi  \n1</string>
+    <string name="cerrarsesion">Esci</string>
+    <string name="edad">Età</string>
+    <string name="nivel">" Livello"</string>
+    <string name="pais">Paese</string>
+    <string name="formatohis">Formato storia</string>
+    <string name="contra1">Password</string>
+    <string name="user1">Utente (massimo 9 caratteri)</string>
+    <string name="TEMA10">Frasi cicliche \nII</string>
+    <string name="TEMA3">Sentenza Print</string>
+    <string name="TEMA4">Operatori aritmetici</string>
+    <string name="TEMA5">Operatori logici</string>
+    <string name="TEMA6">Sentenza Input</string>
+    <string name="TEMA7">Frasi condizionali I</string>
+    <string name="TEMA8">Frasi condizionali II</string>
+    <string name="TEMA9">Frasi cicliche \nII</string>
+    <string name="tema9">Tema \n9</string>
+    <string name="tema10">Tema \n10</string>
+    <string name="Actualizando">Aggiornando</string>
+    <string name="cancel">Cancella</string>
+    <string name="conectando">Collegamento</string>
+    <string name="message_cerrarsesion">Sei sicuro di voler effettuare il logout?</string>
+    <string name="message_log_out">Sei sicuro di voler uscire? Tutti i progressi andranno persi.</string>
+    <string name="si">Sì</string>
+    <string name="espacio">\n\n\n</string>
+    <string name="menu">Temi</string>
+    <string name="guardar">Salva</string>
+    <string name="niveles_de_aprendizaje">Livelli di apprendimento</string>
+    <string name="change_character_profile">Modifica Profilo</string>
+    <string name="AO1">Operatori Aritmetici \n1</string>
+    <string name="AO2">Operatori Aritmetici \n2</string>
+    <string name="AO3">Operatori Aritmetici \n3</string>
+    <string name="AO4">Operatori Aritmetici \n4</string>
+    <string name="AO5">Operatori Aritmetici \n5</string>
+    <string name="CIS11">Frasi Cicliche \n1</string>
+    <string name="CIS12">Frasi Cicliche \n2</string>
+    <string name="CIS13">Frasi Cicliche \n3</string>
+    <string name="CIS14">Frasi Cicliche \n4</string>
+    <string name="CIS15">Frasi Cicliche \n5</string>
+    <string name="CIS21">Frasi Cicliche \n6</string>
+    <string name="CIS22">Frasi Cicliche \n7</string>
+    <string name="CIS23">Frasi Cicliche \n8</string>
+    <string name="CIS24">Frasi Cicliche \n9</string>
+    <string name="CIS25">Frasi Cicliche \n10</string>
+    <string name="CS11">Frasi Condizionali \n1</string>
+    <string name="CS12">Frasi Condizionali \n2</string>
+    <string name="CS13">Frasi Condizionali \n3</string>
+    <string name="CS14">Frasi Condizionali \n4</string>
+    <string name="CS15">Frasi Condizionali \n5</string>
+    <string name="CS21">Frasi Condizionali \n6</string>
+    <string name="CS22">Frasi Condizionali \n7</string>
+    <string name="CS23">Frasi Condizionali \n8</string>
+    <string name="CS24">Frasi Condizionali \n9</string>
+    <string name="CS25">Frasi Condizionali \n10</string>
+    <string name="IS1">Sentenza Input \n1</string>
+    <string name="IS2">Sentenza Input \n2</string>
+    <string name="IS3">Sentenza Input \n3</string>
+    <string name="IS4">Sentenza Input \n4</string>
+    <string name="IS5">Sentenza Input \n5</string>
+    <string name="LO1">Operatori Logici \n1</string>
+    <string name="LO2">Operatori Logici \n2</string>
+    <string name="LO3">Operatori Logici \n3</string>
+    <string name="LO4">Operatori Logici \n4</string>
+    <string name="LO5">Operatori Logici \n5</string>
+    <string name="PS1">Frasi Print \n1</string>
+    <string name="PS2">Frasi Print \n2</string>
+    <string name="PS3">Frasi Print \n3</string>
+    <string name="PS4">Frasi Print \n4</string>
+    <string name="PS5">Frasi Print \n5</string>
+
+    <string name="ejemploNivel5Tema2">Esempio: \nCiao Mondo(Str) \n47(Int) \n33.33(Float) \nTrue(Bool)</string>
+    <string name="InstruccionNivel5">Identificare a quale categoria appartengono i dati nel riquadro superiore e, una volta identificata la categoria, trascinarla verso l\'alto e posizionarla sul rettangolo blu, quindi premere il segno di revisione per verificare che sia corretta.</string>
+    <string name="videos">Video</string>
+    <string name="app_name">Mapp</string>
+    <string name="compilar">Compilare</string>
+    <string name="error_comp">Errore di compilazione</string>
+    <string name="a_gracias">a = Grazie</string>
+    <string name="b_sigue_adelante">b = Continua</string>
+    <string name="insn1t3">Identificare l\'ordine del codice e una volta identificato l\'ordine trascinare il codice corrispondente a sinistra e posizionarli nell\'ordine in modo che l\'output nella console sia uguale a grazie in avanti, quindi premere Compila per verificare se è corretto.</string>
+    <string name="message_comp_good">Compilazione riuscita</string>
+    <string name="casi_lo_logras">Ce l\'hai quasi fatta, riprovaci!</string>
+
+</resources>

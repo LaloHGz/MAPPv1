@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#6c36ff</color>
+    <color name="colorPrimaryDark">#4f0fff</color>
+    <color name="colorAccent">#6c36ff</color>
+
+    <color name="incorrecto1">#f33434</color>
+    <color name="correcto1">#02ee4d</color>
+
+    <color name="correcto">#49DC8E</color>
+    <color name="incorrecto">#FC4E4E</color>
+
+    <color name="amarilloMapp">#ffc629</color>
+    <color name="amarilloMappDark">#dca100</color>
+    <color name="amarilloMapp_primary">#ffc503</color>
+
+
+    <color name="colorAZUL_MAPP">#2962ff</color>
+
+    <color name="morado">#881fe7</color>
+    <color name="MORADO50">#d2c1fc</color>
+
+    <color name="colorAZUL_MAPPD">#003bf0</color>
+    <color name="colorAZUL_MAPPDark">#0001c0</color>
+
+    <color name="colorstatusbar">#3F5CFE</color>
+
+    <color name="GRIS70">#D3D3D3</color>
+    <color name="GRIS">#9E9E9E</color>
+    <color name="GRIS80">#373737</color>
+    <color name="BLANCO">#ffffff</color>
+    <color name="NEGRO">#333333</color>
+    <color name="NEGROPress">#252525</color>
+    <color name="GRIS50">#F5F5F5</color>
+    <color name="GRIS60">#e8e8e8</color>
+    <color name="GRIS90">#313131</color>
+    
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.EditUserActivity"
+    android:orientation="vertical"
+    android:background="@color/GRIS50">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/GRIS50"
+                android:elevation="20dp">
+
+                    <Button
+                        android:layout_marginStart="16dp"
+                        android:id="@+id/boton_back"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/ic_close_black_24dp"
+                        />
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:fontFamily="@font/ttnormspro_bold"
+                        android:id="@+id/tv_change"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change_character_profile"
+                        android:textColor="@color/NEGRO"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_gravity="right"
+                        android:layout_marginEnd="16dp"
+                        android:id="@+id/boton_Actualizar"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/ic_done_black_24dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/boton_atras"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_chevron_left_black_24dp" />
+
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="210dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_personaje"
+                        android:layout_width="170dp"
+                        android:layout_height="190dp" />
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/boton_adelante"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_chevron_right_black_24dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_personaje"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/NEGRO"
+                android:textSize="20sp"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:text="Laoshi"
+                />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_input_user"
+                app:boxStrokeColor="@color/colorPrimaryDark"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="15"
+                app:errorEnabled="true"
+                style="@style/TextInputLayoutWithPrimaryColor"
+                android:textColorHint="@color/GRIS">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:maxLength="15"
+                    android:id="@+id/et_Usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/user"
+                    android:textColor="@color/NEGRO"
+                    android:inputType="text">
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                app:boxStrokeColor="@color/colorPrimaryDark"
+                android:id="@+id/text_input_edad"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="2"
+                app:errorEnabled="true"
+                android:textColorHint="@color/GRIS"
+                style="@style/TextInputLayoutWithPrimaryColor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:maxLength="2"
+                    android:id="@+id/et_Edad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edad"
+                    android:textColor="@color/NEGRO"
+                    android:inputType="number">
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/Tv_Us"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/user"
+                    android:textSize="25sp"
+                    android:textColor="@color/NEGRO"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:hint="Maximum 15 characters"
+                    android:textColorHint="@color/GRIS"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:textColor="@color/GRIS80"
+                    android:maxLength="15"
+                    android:inputType="text"
+                    android:typeface="sans"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/Tv_Ed"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/edad"
+                    android:textSize="25sp"
+                    android:textColor="@color/NEGRO"
+                    android:typeface="sans"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:hint="Maximum 2 characters"
+                    android:textColorHint="@color/GRIS"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:textColor="@color/GRIS80"
+                    android:typeface="sans"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/ttnormspro_bold"
+                    android:id="@+id/Tv_Pa"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/pais"
+                    android:textSize="19sp"
+                    android:textColor="@color/GRIS80"
+                    />
+                <Spinner
+                    android:layout_marginBottom="3dp"
+                    style="@style/spinnerprofile"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/sp_Pais"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:textSize="17sp"
+                    android:background="@color/GRIS50"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="25dp">
+                <TextView
+                    android:fontFamily="@font/ttnormspro_bold"
+                    android:id="@+id/Tv_For"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="@string/formatohis"
+                    android:textSize="19sp"
+                    android:textColor="@color/GRIS80"
+                    />
+                <Spinner
+                    android:layout_marginBottom="3dp"
+                    style="@style/spinnerprofile"
+                    android:id="@+id/sp_Formato"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:textAlignment="textEnd"
+                    android:background="@color/GRIS50"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

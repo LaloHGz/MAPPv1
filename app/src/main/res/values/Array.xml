@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Pais">
+
+        <item>México</item>
+        <item>United States</item>
+        <item>Shqipërisë</item>
+        <item>Argelia</item>
+        <item>Angola</item>
+        <item>Antigua y Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaiyán</item>
+        <item>Bahamas</item>
+        <item>Baréin</item>
+        <item>Bangladesh</item>
+        <item>Bielorrusia</item>
+        <item>Bélgica</item>
+        <item>Belice</item>
+        <item>Benín</item>
+        <item>Bolivia</item>
+        <item>Bosnia y Herzegovina</item>
+        <item>Botsuana</item>
+        <item>Brasil</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Camboya</item>
+        <item>Camerún</item>
+        <item>Canadá</item>
+        <item>Cabo Verde</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Costa de Marfil</item>
+        <item>Croacia</item>
+        <item>Chipre</item>
+        <item>República Checa</item>
+        <item>Dinamarca</item>
+        <item>República Dominicana</item>
+        <item>Ecuador</item>
+        <item>Egipto</item>
+        <item>El Salvador</item>
+        <item>Estonia</item>
+        <item>Fiyi</item>
+        <item>Finlandia</item>
+        <item>Francia</item>
+        <item>Gabón</item>
+        <item>Georgia</item>
+        <item>Alemania</item>
+        <item>Ghana</item>
+        <item>Grecia</item>
+        <item>Guatemala</item>
+        <item>Guinea-Bisáu</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungría</item>
+        <item>Islandia</item>
+        <item>भारत गणराज्य</item>
+        <item>Indonesia</item>
+        <item>מדינת ישראל</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Japón</item>
+        <item>Jordania</item>
+        <item>Kazajistán</item>
+        <item>Kenia</item>
+        <item>Kuwait</item>
+        <item>Kirguistán</item>
+        <item>Laos</item>
+        <item>Letonia</item>
+        <item>Líbano</item>
+        <item>Liechtenstein</item>
+        <item>Lituania</item>
+        <item>Luxemburgo</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Malasia</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Mauricio</item>
+        <item>Moldavia</item>
+        <item>Marruecos</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Países Bajos</item>
+        <item>Antillas Holandesas</item>
+        <item>Nueva Zelanda</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Noruega</item>
+        <item>Omán</item>
+        <item>Pakistán</item>
+        <item>Panamá</item>
+        <item>Papúa Nueva Guinea</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Filipinas</item>
+        <item>Polonia</item>
+        <item>Portugal</item>
+        <item>دولة قطر</item>
+        <item>România</item>
+        <item>Россия</item>
+        <item>Ruanda</item>
+        <item>Arabia Saudita</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapur</item>
+        <item>Eslovaquia</item>
+        <item>Eslovenia</item>
+        <item>Sudáfrica</item>
+        <item>Corea del Sur</item>
+        <item>España</item>
+        <item>Sri Lanka</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>中華民國</item>
+        <item>Tanzania</item>
+        <item>Tayikistán</item>
+        <item>ราชอาณาจักรไทย</item>
+        <item>Togo</item>
+        <item>Trinidad y Tobago</item>
+        <item>Túnez</item>
+        <item>Turquía</item>
+        <item>Turkmenistán</item>
+        <item>Uganda</item>
+        <item>Ucrania</item>
+        <item>دولة الإمارات العربية المتحدة</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>Uzbekistán</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabue</item>
+
+
+    </string-array>
+
+    <string-array name="Formatoen">
+
+
+        <item>Written</item>
+        <item>Narrated</item>
+        <item>Comic</item>
+
+
+    </string-array>
+    <string-array name="Formatoes">
+
+
+        <item>Escrito</item>
+        <item>Narrado</item>
+        <item>Comic</item>
+
+    </string-array>
+
+    <string-array name="Formatoit">
+
+
+        <item>Scritto</item>
+        <item>Narrato</item>
+        <item>Fumetto</item>
+
+    </string-array>
+
+    <string-array name="Formatopt">
+
+
+        <item>Escrito</item>
+        <item>Narrado</item>
+        <item>Quadrinho</item>
+
+    </string-array>
+
+    <string-array name="Formatoru">
+
+
+        <item>Письменный</item>
+        <item>повествовать</item>
+        <item>Комикс</item>
+
+    </string-array>
+
+
+
+
+</resources>

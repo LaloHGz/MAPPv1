@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".instrucciones.CheckActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondosplash">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:orientation="vertical"
+            android:background="@drawable/checkimage">
+            <TextView
+                android:fontFamily="@font/ttnorms_bold"
+                android:layout_gravity="center"
+                android:id="@+id/txt_n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="30sp"
+                android:textColor="@color/BLANCO"
+                />
+            <TextView
+                android:fontFamily="@font/ttnorms_bold"
+                android:layout_gravity="center"
+                android:id="@+id/text_terminado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Terminado"
+                android:textColor="@color/morado"
+                android:layout_marginTop="45dp"
+                android:textSize="35sp" />
+            <TextView
+                android:fontFamily="@font/ttnorms_medium"
+                android:layout_gravity="center"
+                android:id="@+id/text_check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/NEGRO"
+                android:text="@string/Completado"/>
+            <TextView
+                android:fontFamily="@font/ttnorms_bold"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/tema"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/TEMA1"
+                android:textSize="35sp"
+                android:layout_marginTop="90dp"
+                android:textColor="@color/BLANCO" />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:fontFamily="@font/ttnorms_medium"
+                    android:id="@+id/tv_tiemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/BLANCO"
+                    android:text="@string/tiempo"
+                    />
+                <Chronometer
+                    android:fontFamily="@font/ttnorms_medium"
+                    android:id="@+id/Chronometro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/BLANCO"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:fontFamily="@font/ttnorms_medium"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:id="@+id/siguiente1"
+            android:layout_width="250dp"
+            android:layout_height="45sp"
+            android:background="@drawable/pressed_e1"
+            android:layout_marginTop="160dp"
+            android:text="@string/Siguiente"
+            android:textColor="@color/BLANCO"
+            android:textSize="25sp"
+            android:layout_marginBottom="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

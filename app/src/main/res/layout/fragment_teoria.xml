@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/tv_derechos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taboada,A.[Programación ATS](2019,Febrero 17) Programación en Python [Archivo de Video]. Recuperado de https://www.youtube.com/playlist?list=PLWtYZ2ejMVJnh0KVllw24XklzJ62WNFsj"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/tv_derechos"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

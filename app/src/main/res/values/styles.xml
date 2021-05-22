@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAZUL_MAPP</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="CardView." parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@drawable/fondosplash</item>
+    </style>
+
+    <style name="CounterStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/NEGRO</item>
+        <!--other parameters that you want to change -->
+    </style>
+    <!--Floating label text style-->
+    <style name="MyHintStyle" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/BLANCO</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/GRIS80</item>
+        <item name="colorControlActivated">@color/GRIS</item>
+    </style>
+
+    <style name="TextInputLayoutWithPrimaryColor" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">@color/colorAZUL_MAPP</item>
+        <item name="fontFamily">@font/ttnormspro_medium</item>
+        <item name="boxBackgroundColor">@color/colorPrimary</item>
+        <item name="boxStrokeColor">@color/colorAZUL_MAPP</item>
+    </style>
+
+    <style name="TextInputLayoutWithPrimaryDark" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/ttnormspro_medium</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/ttnormspro_medium</item>
+    </style>
+
+    <style name="listViewprofile"
+        parent="Widget.AppCompat.ListView">
+        <item name="fontFamily">@font/ttnormspro_medium</item>
+    </style>
+
+    <style name="spinnerprofile"
+        parent="Spinner">
+        <item name="fontFamily">@font/ttnormspro_medium</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: com.novoda:drop-cap:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60f6fc7b533d1f58506e2298a2994a4c/jetified-drop-cap-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60f6fc7b533d1f58506e2298a2994a4c/jetified-drop-cap-1.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5388590d448d273036f60aee5973ee40/jetified-drop-cap-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5388590d448d273036f60aee5973ee40/jetified-drop-cap-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5388590d448d273036f60aee5973ee40/jetified-drop-cap-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedbafb18264f190d081fa4a4a496319/jetified-drop-cap-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedbafb18264f190d081fa4a4a496319/jetified-drop-cap-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aedbafb18264f190d081fa4a4a496319/jetified-drop-cap-1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.novoda/drop-cap/1.1.0/ba6997107a725aa179c2eb2f394b865d3378daab/drop-cap-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.novoda/drop-cap/1.1.0/3d1a7ed5ce17b7ed90ec74022955a4805f64028b/drop-cap-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

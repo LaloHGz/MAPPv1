@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".niveles.algoritmos.Nivel5Activity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"/>
+        <LinearLayout
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:orientation="vertical"
+            android:background="@drawable/rectangulo"
+            android:gravity="center">
+            <com.airbnb.lottie.LottieAnimationView
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:id="@+id/animation_checkmark"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:lottie_imageAssetsFolder="assets"
+                app:lottie_fileName="checkmark.json"
+                app:lottie_loop="false"
+                />
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/algoritmo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/NEGRO"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+
+            <TextView
+                android:fontFamily="@font/ttnorms_medium"
+                android:layout_width="360sp"
+                android:layout_height="390sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25sp"
+                android:background="@drawable/rectangulo" />
+
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_1"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-87sp"
+                android:layout_marginTop="-350sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton3lvl4"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_3"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="-87sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton1lvl5" />
+
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_2"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="87sp"
+                android:layout_marginTop="-160sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton2lvl5"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:padding="1dp"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_4"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="87sp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton3lvl5"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_6"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton2lvl4"
+                android:layout_marginStart="87sp"/>
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_5"
+                android:layout_width="170sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-70dp"
+                android:background="@drawable/cuadro_press"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp"
+                android:text="@string/bton4lvl5"
+                android:layout_marginEnd="87dp"
+                />
+
+            <ImageButton
+                android:id="@+id/bton_borrar"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/borrar"
+                android:textColor="@color/BLANCO"
+                android:textSize="17sp" />
+
+            <Button
+                android:textAllCaps="false"
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/bton_check2"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-28dp"
+                android:background="@drawable/pressed_e1"
+                android:text="@string/Check"
+                android:textColor="@color/GRIS50"
+                android:textSize="25sp"
+                android:layout_marginEnd="30dp"
+                android:onClick="Check"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

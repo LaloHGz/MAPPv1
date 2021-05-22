@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".niveles.variables.Nivel3variablesActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondosplash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/BLANCO">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:progressDrawable="@drawable/custom_progress"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_marginTop="-30dp"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:visibility="invisible"/>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rectangle_white"
+                android:gravity="center">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/animation_checkmark"
+                    android:padding="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:lottie_imageAssetsFolder="assets"
+                    app:lottie_fileName="checkmark.json"
+                    app:lottie_loop="false"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/ttnormspro_medium"
+                    android:gravity="center"
+                    android:padding="14dp"
+                    android:id="@+id/tv_dato"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/GRIS80"
+                    android:text="@string/p1n3t2"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/dropAnswer"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:background="@drawable/botonseleccion"
+                android:textColor="@color/BLANCO"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer1"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Str"
+                        android:textSize="17sp"/>
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer2"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Int"
+                        android:textSize="17sp"/>
+
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer3"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Float"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer4"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Bool"
+                        android:textSize="17sp"/>
+
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer5"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Variable"
+                        android:textSize="17sp"/>
+                    <Button
+                        android:fontFamily="@font/ttnormspro_medium"
+                        android:textAllCaps="false"
+                        android:id="@+id/answer6"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:textColor="@color/NEGRO"
+                        android:background="@drawable/rectangle_gridpress"
+                        android:text="Constante"
+                        android:textSize="17sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:fontFamily="@font/ttnormspro_medium"
+                android:id="@+id/check"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@color/BLANCO"
+                android:background="@drawable/pressed_e1"
+                android:text="@string/Check"
+                android:textAllCaps="false"
+                android:textSize="25sp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
